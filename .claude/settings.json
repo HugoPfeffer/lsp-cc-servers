@@ -126,7 +126,7 @@
     "superpowers@superpowers-marketplace": false,
     "commit-commands@claude-plugins-official": true
   },
-  "skipDangerousModePermissionPrompt": true,
+  "skipDangerousModePermissionPrompt": false,
   "extraKnownMarketplaces": {
     "superpowers-marketplace": {
       "source": {
