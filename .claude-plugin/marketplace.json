@@ -1,0 +1,69 @@
+{
+  "name": "lsp-cc-servers",
+  "description": "LSP language servers for Claude Code — Markdown and Kubernetes YAML",
+  "owner": {
+    "name": "Hugo Pfeffer"
+  },
+  "plugins": [
+    {
+      "name": "marksman-lsp",
+      "description": "Markdown language server using Marksman — link completion, go-to-definition, find references, and broken-link diagnostics",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hugo Pfeffer"
+      },
+      "source": "./plugins/marksman-lsp",
+      "category": "development",
+      "strict": false,
+      "lspServers": {
+        "markdown": {
+          "command": "marksman",
+          "args": ["server"],
+          "extensionToLanguage": {
+            ".md": "markdown"
+          }
+        }
+      }
+    },
+    {
+      "name": "kubernetes-lsp",
+      "description": "Kubernetes YAML language server using Red Hat yaml-language-server — schema validation, completion, and hover for K8s manifests",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hugo Pfeffer"
+      },
+      "source": "./plugins/kubernetes-lsp",
+      "category": "development",
+      "strict": false,
+      "lspServers": {
+        "yaml": {
+          "command": "yaml-language-server",
+          "args": ["--stdio"],
+          "extensionToLanguage": {
+            ".yaml": "yaml",
+            ".yml": "yaml"
+          },
+          "settings": {
+            "yaml": {
+              "validate": true,
+              "hover": true,
+              "completion": true,
+              "schemas": {
+                "kubernetes": ["/*.yaml", "/*.yml"]
+              },
+              "schemaStore": {
+                "enable": true
+              },
+              "kubernetesCRDStore": {
+                "enable": true
+              },
+              "yamlVersion": "1.2",
+              "maxItemsComputed": 5000
+            }
+          },
+          "maxRestarts": 3
+        }
+      }
+    }
+  ]
+}
