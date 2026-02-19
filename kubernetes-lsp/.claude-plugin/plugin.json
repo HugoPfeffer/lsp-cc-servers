@@ -1,0 +1,8 @@
+{
+  "name": "kubernetes-lsp",
+  "version": "1.0.0",
+  "description": "Kubernetes YAML language server using Red Hat yaml-language-server — schema validation, completion, and hover for K8s manifests",
+  "author": { "name": "Hugo Pfeffer" },
+  "lspServers": "./.lsp.json",
+  "hooks": "./hooks/hooks.json"
+}

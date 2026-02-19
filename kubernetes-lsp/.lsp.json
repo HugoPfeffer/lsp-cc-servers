@@ -1,0 +1,29 @@
+{
+  "yaml": {
+    "command": "yaml-language-server",
+    "args": ["--stdio"],
+    "extensionToLanguage": {
+      ".yaml": "yaml",
+      ".yml": "yaml"
+    },
+    "settings": {
+      "yaml": {
+        "validate": true,
+        "hover": true,
+        "completion": true,
+        "schemas": {
+          "kubernetes": ["/*.yaml", "/*.yml"]
+        },
+        "schemaStore": {
+          "enable": true
+        },
+        "kubernetesCRDStore": {
+          "enable": true
+        },
+        "yamlVersion": "1.2",
+        "maxItemsComputed": 5000
+      }
+    },
+    "maxRestarts": 3
+  }
+}

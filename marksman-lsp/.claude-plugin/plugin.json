@@ -1,0 +1,8 @@
+{
+  "name": "marksman-lsp",
+  "version": "1.0.0",
+  "description": "Markdown language server using Marksman — link completion, go-to-definition, find references, and broken-link diagnostics",
+  "author": { "name": "Hugo Pfeffer" },
+  "lspServers": "./.lsp.json",
+  "hooks": "./hooks/hooks.json"
+}
