@@ -1,0 +1,7 @@
+{
+  "name": "research-pipeline",
+  "version": "1.0.0",
+  "description": "Multi-phase research pipeline with parallel agents, firecrawl-powered scraping, skeleton-first scaffolding, and quality gates. Produces indexed documentation under .claude/docs/<domain>/",
+  "author": { "name": "Hugo Pfeffer" },
+  "hooks": "./hooks/hooks.json"
+}

@@ -64,6 +64,17 @@
           "maxRestarts": 3
         }
       }
+    },
+    {
+      "name": "research-pipeline",
+      "description": "Multi-phase research pipeline with parallel agents, firecrawl-powered scraping, skeleton-first scaffolding, and quality gates",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hugo Pfeffer"
+      },
+      "source": "./plugins/research-pipeline",
+      "category": "productivity",
+      "strict": false
     }
   ]
 }

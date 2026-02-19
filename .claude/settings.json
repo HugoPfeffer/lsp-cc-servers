@@ -35,7 +35,8 @@
     "superpowers@superpowers-marketplace": false,
     "commit-commands@claude-plugins-official": true,
     "marksman-lsp@lsp-cc-servers": true,
-    "kubernetes-lsp@lsp-cc-servers": true
+    "kubernetes-lsp@lsp-cc-servers": true,
+    "research-pipeline@lsp-cc-servers": true
   },
   "skipDangerousModePermissionPrompt": false,
   "extraKnownMarketplaces": {
