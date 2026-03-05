@@ -1,0 +1,6 @@
+{
+  "name": "doc-urls",
+  "version": "1.0.0",
+  "description": "Extract topics from a prompt and find official documentation URLs in parallel",
+  "author": { "name": "Hugo Pfeffer" }
+}
