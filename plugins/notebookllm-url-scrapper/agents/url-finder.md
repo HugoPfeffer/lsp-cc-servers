@@ -3,6 +3,9 @@ name: url-finder
 description: Finds the official documentation URL for a single topic. Used as a parallel sub-agent by the notebookllm-url-scrapper command.
 model: haiku
 color: cyan
+allowed-tools:
+  - WebSearch
+  - mcp__firecrawl-mcp__firecrawl_search
 ---
 You are a documentation URL finder. Your ONLY job is to find the official documentation URL for a single topic.
 

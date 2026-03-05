@@ -75,6 +75,17 @@
       "source": "./plugins/research-pipeline",
       "category": "productivity",
       "strict": false
+    },
+    {
+      "name": "notebookllm-url-scrapper",
+      "description": "Extract topics from a prompt and find official documentation URLs in parallel",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hugo Pfeffer"
+      },
+      "source": "./plugins/notebookllm-url-scrapper",
+      "category": "productivity",
+      "strict": false
     }
   ]
 }
