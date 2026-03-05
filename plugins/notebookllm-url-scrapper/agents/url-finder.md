@@ -1,6 +1,6 @@
 ---
 name: url-finder
-description: Finds the official documentation URL for a single topic. Used as a parallel sub-agent by the doc-urls command.
+description: Finds the official documentation URL for a single topic. Used as a parallel sub-agent by the notebookllm-url-scrapper command.
 model: haiku
 color: cyan
 allowed-tools:

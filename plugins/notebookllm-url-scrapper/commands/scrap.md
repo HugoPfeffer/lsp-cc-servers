@@ -34,7 +34,7 @@ CRITICAL: All Agent calls MUST be in a SINGLE message to run in parallel.
 
 ## Step 3: Collect and Write
 
-After all agents return, collect the URLs. Write a file called `doc-urls.md` in the current working directory with this exact format — raw URLs only, one per line, no formatting:
+After all agents return, collect the URLs. Write a file called `notebookllm-urls.md` in the current working directory with this exact format — raw URLs only, one per line, no formatting:
 
 ```
 <url>
@@ -44,4 +44,4 @@ After all agents return, collect the URLs. Write a file called `doc-urls.md` in 
 
 No headers, no bullet points, no markdown formatting. Just URLs, one per line.
 
-Tell the user you wrote `doc-urls.md` with the number of URLs found.
+Tell the user you wrote `notebookllm-urls.md` with the number of URLs found.
