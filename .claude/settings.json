@@ -36,7 +36,8 @@
     "commit-commands@claude-plugins-official": true,
     "marksman-lsp@lsp-cc-servers": true,
     "kubernetes-lsp@lsp-cc-servers": true,
-    "research-pipeline@lsp-cc-servers": true
+    "research-pipeline@lsp-cc-servers": true,
+    "notebookllm-url-scrapper@lsp-cc-servers": true
   },
   "skipDangerousModePermissionPrompt": false,
   "extraKnownMarketplaces": {
